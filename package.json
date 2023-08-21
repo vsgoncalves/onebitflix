@@ -1,14 +1,17 @@
 {
   "name": "onbitflix",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
+  
   "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts"
   },
   "keywords": [],
   "author": "Vinicius Gonçalves",
   "license": "ISC",
+  
   "dependencies": {
     "@adminjs/express": "~4.0.1",
     "@adminjs/sequelize": "~2.1.0",
@@ -26,5 +29,8 @@
     "sequelize-cli": "~6.4.1",
     "ts-node-dev": "~1.1.8",
     "typescript": "~4.5.4"
+    
   }
+
+  
 }
