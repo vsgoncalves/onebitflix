@@ -1,7 +1,7 @@
 // src/models/Category.ts
 
-import { sequelize } from '../database';
 import { DataTypes, Model, Optional } from 'sequelize'
+import { sequelize } from '../database'
 
 export interface Category {
   id: number
