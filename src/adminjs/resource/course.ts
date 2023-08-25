@@ -3,7 +3,7 @@
 import { ResourceOptions } from "adminjs";
 
 export const courseResourceOptions: ResourceOptions = {
-  navigation: 'Catálogo',
+  navigation: 'Catálogo',               
   editProperties: ['name', 'synopsis', 'uploadThumbnail', 'featured', 'categoryId'],
   filterProperties: ['name', 'synopsis', 'featured', 'categoryId', 'createdAt', 'updatedAt'],
   listProperties: ['id', 'name', 'featured', 'categoryId'],
