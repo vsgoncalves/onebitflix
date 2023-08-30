@@ -1,11 +1,11 @@
 // src/adminjs/index.ts
 
 
-import AdminJs from 'adminjs'
+import AdminJs from 'adminjs';
 import AdminJsExpress from '@adminjs/express'
 import AdminJsSequelize from '@adminjs/sequelize'
-import { sequelize } from '../database'
-import { adminJsResources } from './resource'
+import { sequelize } from '../database';
+import { adminJsResources } from './resources'
 
 AdminJs.registerAdapter(AdminJsSequelize)
 

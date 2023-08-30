@@ -4,7 +4,7 @@ import { Category } from './Category';
 import { Course } from './Course';
 
 Category.hasMany(Course)
-Category.belongsTo(Category)
+Course.belongsTo(Category)
 
 export {
   Category,
