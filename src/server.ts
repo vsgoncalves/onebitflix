@@ -6,6 +6,8 @@ import { router } from "./routers"
 
 const app = express()
 
+app.use(express.json())
+
 app.use(express.static('public'))
 
 app.use(adminJs.options.rootPath, adminJsRouter)
@@ -20,7 +22,7 @@ const PORT = process.env.PORT || 3000
 //})
 
 
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
     sequelize.authenticate().then(() => {
       console.log('DB connection successfull.')
     })
