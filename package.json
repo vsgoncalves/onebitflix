@@ -18,6 +18,7 @@
     "adminjs": "^6.8.7",
     "audit": "^0.0.6",
     "bcrypt": "~5.0.1",
+    "cors": "^2.8.5",
     "express": "~4.17.2",
     "express-formidable": "~1.2.0",
     "jsonwebtoken": "~8.5.1",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "@types/bcrypt": "~5.0.0",
+    "@types/cors": "^2.8.14",
     "@types/express": "~4.17.13",
     "@types/jsonwebtoken": "^9.0.2",
     "@types/node": "~17.0.10",
